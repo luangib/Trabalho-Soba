@@ -1,3 +1,7 @@
+#define NUM_BITS 128
+typedef unsigned char BigInt[NUM_BITS/8];
+
+
 void big_val(BigInt res, long val) {
     unsigned char *p = (unsigned char *)&val;
 
