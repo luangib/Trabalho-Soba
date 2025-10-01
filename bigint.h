@@ -1,3 +1,6 @@
+// Aluno: Luan Francisco Gibson Coutinho matricula: 2411167
+// Aluno: Pedro Pitta Paulino            matricula: 2410242
+
 #define NUM_BITS 128
 typedef unsigned char BigInt[NUM_BITS/8];
 
