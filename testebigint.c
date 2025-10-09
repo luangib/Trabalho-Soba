@@ -28,20 +28,24 @@ int main(void) {
     long b = 0x0;
     long c = 0xFFFF;
 
+    printf("Atribuição de valor \n");
     // Teste 1
     for (int i = 0; i < 16; i++) res[i] = 0;  // zera o BigInt
     big_val(res, a);
     dump(res);
+    printf("\n");
 
     // Teste 2
     for (int i = 0; i < 16; i++) res[i] = 0;
     big_val(res, b);
     dump(res);
+    printf("\n");
 
     // Teste 3
     for (int i = 0; i < 16; i++) res[i] = 0;
     big_val(res, c);
     dump(res);
+    printf("\n");
 
 
 
@@ -56,7 +60,7 @@ int main(void) {
 
 
 /* res = -a */
-
+printf("Inversão de Valor \n");
     //Teste1
     for (int i = 0; i < 16; i++) res[i] = 0;
     for (int i = 0; i < 16; i++) temp[i] = 0;
